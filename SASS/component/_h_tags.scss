@@ -1,0 +1,51 @@
+.intro
+{
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+
+}
+h3
+{
+	margin-left: 10px;
+	padding-left: 8px;
+	margin-right: 10px;
+	padding-right: 8px;
+	font-weight: bold;
+	color: #5a5858;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.4rem;
+	margin-bottom: 12px;
+
+}
+
+.lead-paragraph
+{
+	font-family: Cambria, Georgia, serif;
+	color: #5a5858;
+	margin-top: 0;
+	padding-bottom: 1rem;
+	margin-left: 10px;
+	padding-left: 8px;
+	margin-right: 10px;
+	padding-right: 8px;
+	border-bottom: 1px solid #5a5858;
+	margin-bottom: 16px;
+	font-size: 1.2rem;
+	
+
+}
+
+@media(max-width: 480px)
+{
+	h3
+	{
+		text-align: center;
+	}
+	.lead-paragraph
+	{
+		text-align: center;
+	}
+}

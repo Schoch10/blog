@@ -1,0 +1,25 @@
+body
+{
+	background-color: white;
+
+}
+
+.main-container
+{
+	width: 90%;
+	min-height: 600px;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #fdfafa;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+
+
+@media(max-width: 530px)
+{
+	.main-container{ width: 100%;}
+
+}
